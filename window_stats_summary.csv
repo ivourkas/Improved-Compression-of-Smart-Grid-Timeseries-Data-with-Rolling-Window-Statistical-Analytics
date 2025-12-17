@@ -1,0 +1,4 @@
+metric,global_min,min_window_address,min_window_size,global_max,max_window_address,max_window_size
+entropy,-1.384988635146345e-10,5187-5442,256,5.483619645044929,6472-7495,1024
+std,0.0,5187-5442,256,139.4451032657604,5048-5303,256
+gini_coefficient,0.0,5187-5442,256,0.99609375,5186-5441,256
