@@ -11,7 +11,7 @@ This repository implements the Garofalakis-Kumar wavelet synopsis algorithm with
 1. **Rolling Window Analysis** — Scan signal with multiple window sizes (128–4096) to find segments with extreme statistical properties
 2. **Segment Identification** — Extract windows with global min/max entropy, std, and Gini coefficient
 3. **Adaptive Compression** — Apply wavelet synopsis with coefficient budgets from 0.5% to 30%
-4. **Error Targeting** — Stop when L∞ error ≤ 15% of global max amplitude
+4. **Error Targeting** — e.g. Stop when L∞ error ≤ 15% of global max amplitude 
 
 ## Repository Structure
 
