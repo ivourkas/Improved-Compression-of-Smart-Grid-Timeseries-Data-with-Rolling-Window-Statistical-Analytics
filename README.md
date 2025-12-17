@@ -19,7 +19,7 @@ This repository implements the Garofalakis-Kumar wavelet synopsis algorithm with
 ├── results_method1_l2/           # L2-optimized compression outputs
 ├── results_method1_linf/         # L∞-optimized compression outputs
 │
-├── garo_l2_for_csv_quick.py      # Garofalakis-Kumar L2 algorithm (Numba JIT)
+├── garo_l2_for_csv_quick.py      # Garofalakis-Kumar L2 algorithm 
 ├── garo_inf_for_csv.py           # Garofalakis-Kumar L∞ algorithm
 ├── metrics_analysis.py           # Rolling window statistics scanner
 ├── problematic_segments.py       # Segment extraction and compression
@@ -55,7 +55,7 @@ python metrics_analysis.py
 python problematic_segments.py
 
 # 3. Or run full L2 compression
-python garo_l2_for_csv_quick.py
+python garo_l2_for_csv_quick.py 
 ```
 
 ## Output
