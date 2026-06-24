@@ -1,0 +1,14 @@
+.venv/
+.matplotlib-cache/
+__pycache__/
+*.pyc
+_demo_temp.csv
+temp_clean_signal.csv
+window_stats_summary.csv
+results_demo/
+results_method1_l2/
+results_method1_linf/
+results_segments_l2/
+results_segments_linf/
+compressed_energy_data.csv
+compressed_energy_with_timestamps.csv

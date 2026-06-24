@@ -1,0 +1,8 @@
+# Direct dependencies for the wavelet compression demo and companion analysis scripts.
+numpy
+pandas
+scipy
+PyWavelets
+numba
+matplotlib
+scikit-learn
