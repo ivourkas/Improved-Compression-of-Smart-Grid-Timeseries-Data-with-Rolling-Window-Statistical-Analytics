@@ -89,8 +89,7 @@ Key flags: `--method`, `--target`, `--csv`, `--signal-col`, `--time-col`, `--out
 ├── compression_demo.py        # interactive demo
 ├── metrics_analysis.py        # Step 2: find interesting segments
 ├── problematic_segments.py    # Step 3: compress segments
-├── requirements.txt
-└── archive/                   # deprecated scripts from prior runs
+└── requirements.txt
 ```
 
 Generated output directories (`results_*/`, `window_stats_summary.csv`) are gitignored and recreated on each run.
