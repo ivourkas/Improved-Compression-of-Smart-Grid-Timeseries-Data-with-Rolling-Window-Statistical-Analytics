@@ -148,8 +148,8 @@ def compress_segment(segment: dict,
     print(f"  Target L_inf error: {target_linf:.4f} (15% of global max |x_i|)")
 
     # --- Coefficient percentage configuration ---
-    coeff_pct_start = 0.005   # 5%
-    coeff_pct_step = 0.005   # 1%
+    coeff_pct_start = 0.05   # 5%
+    coeff_pct_step = 0.01    # 1%
     coeff_pct_max = 0.30     # 30%
 
     results = []
@@ -289,6 +289,10 @@ def main():
     os.makedirs(OUTPUT_ROOT, exist_ok=True)
 
     print("Loading window statistics summary...")
+    if not os.path.exists(WINDOW_STATS_FILE):
+        raise FileNotFoundError(
+            f"'{WINDOW_STATS_FILE}' not found. Run metrics_analysis.py first to generate it."
+        )
     summary_df = pd.read_csv(WINDOW_STATS_FILE)
     print(summary_df)
 

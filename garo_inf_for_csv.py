@@ -54,6 +54,12 @@ TREE_DTYPE = np.dtype([
     ('weight', np.float64)
 ])
 
+# --- Preprocessing options (toggle before running) ---
+# USE_OUTLIER_REMOVAL : detect and interpolate outliers/gaps before compression
+#                       set True for "with gap diagnosis" runs
+# ADD_NOISE_BACK_FOR_EVAL : re-add removed noise when computing error metrics
+# USE_DENOISING       : apply wavelet denoising on top of outlier removal
+# USE_BASELINE        : subtract diurnal baseline before compression
 USE_OUTLIER_REMOVAL = False
 ADD_NOISE_BACK_FOR_EVAL = False
 USE_DENOISING = False

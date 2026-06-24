@@ -194,4 +194,5 @@ def scan_windows_and_export_csv(filename: str,
     return result_df
 
 
-scan_windows_and_export_csv("data/test_data_v2.csv")
+if __name__ == "__main__":
+    scan_windows_and_export_csv("data/test_data_v2.csv")
